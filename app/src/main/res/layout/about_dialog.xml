@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="10dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="This app was made with the idea of a TCPTest application with a slider to send commands to, for example, an arduino with a servo translating numbers into positions, but it doesn't have to be an arduino it could be used to only test if a port is open correctly or another version to be used as a chat, the original application was created by Gene Knott and was called TCPTest, created in Virtual Basic Studio for Virtual Basic. I believe I have reached my goal."/>
+
+</LinearLayout>
+

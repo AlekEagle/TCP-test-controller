@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:id="@+id/securetest"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text=""
+		android:id="@+id/subTextView1"/>
+
+	<SeekBar
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/subSeekBar1"
+		android:max="180"
+		android:progress="90"
+		android:paddingLeft="36dp"
+		android:paddingRight="36dp"/>
+
+	<ListView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/list"
+		android:layout_gravity="start"/>
+
+</LinearLayout>
+
